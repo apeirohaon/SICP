@@ -1,7 +1,0 @@
-#lang sicp
-(define (pasc row col)
-  (if (or (= col 1) (= col row))
-         1
-         (+ (pasc (- row 1) (- col 1)) (pasc (- row 1) col))))
-
-(pasc 5 3)
