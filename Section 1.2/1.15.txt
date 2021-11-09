@@ -1,0 +1,4 @@
+a.
+5 times.
+b.
+Both are theta(log(a))

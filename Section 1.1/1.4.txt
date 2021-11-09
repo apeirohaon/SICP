@@ -1,0 +1,2 @@
+If b is positive, it will evaluate a + b. Otherwise, it will evaluate a - b.
+This has, as the name of the procedure implies, the effect of adding the absolute value of b to a.

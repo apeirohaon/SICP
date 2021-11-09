@@ -1,0 +1,7 @@
+As follows:
+
+(f f)
+(f 2)
+(2 2)
+
+at which point an error would occur.

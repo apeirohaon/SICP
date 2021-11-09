@@ -1,0 +1,9 @@
+definition of the golden ratio: p^2 = p + 1
+
+p^2 = p + 1
+p = (p + 1) / p
+p = 1 + (1 / p)
+
+i.e. the golden ratio is the fixed point of p -> 1 + 1/x
+
+this computes to aprox 1.61803

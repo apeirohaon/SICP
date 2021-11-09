@@ -1,0 +1,5 @@
+The program will get stuck in an infinite loop.
+This is because new-if is not a special form but a regular compound procedure.
+This means it will use the typical applicative evaluating process.
+As a result the third operand, the argument for else-clause, will also be evaluated always.
+Because it calls itself and has no way of stopping it will infinitely loop.

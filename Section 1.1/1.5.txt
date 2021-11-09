@@ -1,0 +1,9 @@
+With applicative-order evaluation the procedure will never finish running.
+The interpreter will evalute the operator \test\ and the operands \0\ and \p\.
+When it tries to evaluate the value of \p\, it will see that its value is \p\.
+It will go on to try to evaluate the value of \p\, and this will continue forever.
+
+With normal-order evaluation, the procedure will return 0.
+The interpreter will simply pass the arguments \0\ and \p\ to the \test\ procedure.
+The \test\ procedure will see that \(= x 0)\ evaluates to true and the \if\ special form will return 0.
+It will not go on to evaluate \p\, which is what causes the infinite loop in applicative-order evaluation of the program.
